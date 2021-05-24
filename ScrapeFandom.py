@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-fandom_site = "modao-zushi"
+fandom_site = "finalfantasy"
 #Get All Pages
 nextpage_url = "/wiki/Special:AllPages"
 AllPage = "https://"+fandom_site+".fandom.com"+nextpage_url
