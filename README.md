@@ -13,7 +13,7 @@ The requirements.txt file should list all Python libraries that your notebooks d
 # Usage
 > python3 ScrapeFandom.py NAME_OF_FANDOM
 
-For example, NAME_OF_FANDOM will be `harrypotter` for 'https://harrypotter.fandom.com`
+For example, NAME_OF_FANDOM will be `harrypotter` for `https://harrypotter.fandom.com`
 
 To subsequently extract the WikiDump, one can use the fork: https://github.com/ujiuji1259/wikiextractor/tree/fix_colon
 
