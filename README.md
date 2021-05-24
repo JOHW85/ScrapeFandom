@@ -8,10 +8,10 @@ Works only for English fandom sites. Some slight modifications are needed for ot
 # Notes
 The requirements.txt file should list all Python libraries that your notebooks depend on, and they will be installed using:
 
-> pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 # Usage
-> python3 ScrapeFandom.py NAME_OF_FANDOM
+`python3 ScrapeFandom.py NAME_OF_FANDOM`
 
 For example, NAME_OF_FANDOM will be `harrypotter` for `https://harrypotter.fandom.com`
 
@@ -21,8 +21,8 @@ To subsequently extract the WikiDump, one can use the fork: https://github.com/u
 1. Clone the extractor locally (https://github.com/ujiuji1259/wikiextractor/tree/fix_colon)
 2. Open the terminal and cd  your way to the repo dir
 3. Run 
-> python3 setup.py install
+`python3 setup.py install`
 4. After it finishes, you'll be able to use the extractor. Run wikiextractor 
-> fandom_name.xml --no-templates --json --o extracted_files
+`fandom_name.xml --no-templates --json --o extracted_files`
 5. extracted_files folder will be created. cd into it and run the converter
-> python3 json2txt.py extracted_files/AA output_file.txt 
+`python3 json2txt.py extracted_files/AA output_file.txt`
