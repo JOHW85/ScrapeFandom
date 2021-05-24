@@ -5,6 +5,14 @@ This script scrapes Fandom.com for an updated Wiki dump. It scrapes the Special:
 
 Works only for English fandom sites. Some slight modifications are needed for other languages.
 
+# Notes
+The requirements.txt file should list all Python libraries that your notebooks depend on, and they will be installed using:
+
+> pip install -r requirements.txt
+
+# Usage
+> python3 ScrapeFandom.py NAMEOFFANDOM
+
 To subsequently extract the WikiDump, one can use the fork: https://github.com/ujiuji1259/wikiextractor/tree/fix_colon
 
 Instructions from thaalesalves#8854 from NovelAI:
