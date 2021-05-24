@@ -1,7 +1,10 @@
 import requests
 from bs4 import BeautifulSoup
-
-fandom_site = "finalfantasy"
+import argparse
+parser = argparse.ArgumentParser()
+parser.add_argument('input_fandom', help='Fandom\'s name')
+args = parser.parse_args()
+fandom_site = args.input_fandom
 #Get All Pages
 nextpage_url = "/wiki/Special:AllPages"
 AllPage = "https://"+fandom_site+".fandom.com"+nextpage_url
