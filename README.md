@@ -1,7 +1,7 @@
 # Scrape Fandom
 Fandom.com provides Wiki dumps at https://*.fandom.com/wiki/Special:Statistics, but most of the dumps are outdated, and require contacting an admin to produce a new dump.
 
-This script scrapes Fandom.com for an updated Wiki dump. It scrapes the Special:AllPages to get a list of article names and requests a wiki dump from Special:Export.
+This script scrapes Fandom.com for an updated Wiki dump. It scrapes the Special:AllPages to get a list of article names and requests a wiki dump from Special:Export. Instructions to get a corpus for natural language processing and training is provided.
 
 Works only for English fandom sites. Some slight modifications are needed for other languages.
 
@@ -17,7 +17,7 @@ For example, NAME_OF_FANDOM will be `harrypotter` for `https://harrypotter.fando
 
 To subsequently extract the WikiDump, one can use the fork: https://github.com/ujiuji1259/wikiextractor/tree/fix_colon
 
-Instructions from thaalesalves#8854 from NovelAI:
+# Further Instructions
 1. Clone the extractor locally (https://github.com/ujiuji1259/wikiextractor/tree/fix_colon)
 2. Open the terminal and cd  your way to the repo dir
 3. Run 
