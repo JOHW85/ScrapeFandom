@@ -22,7 +22,7 @@ To subsequently extract the WikiDump, one can use the fork: https://github.com/u
 2. Open the terminal and cd  your way to the repo dir
 3. Run 
 `python3 setup.py install`
-4. After it finishes, you'll be able to use the extractor. Run wikiextractor 
-`fandom_name.xml --no-templates --json --o extracted_files`
-5. extracted_files folder will be created. cd into it and run the converter
+4. After it finishes, you'll be able to use the extractor. Run 
+5. `wikiextractor fandom_name.xml --no-templates --json --o extracted_files`
+6. extracted_files folder will be created. cd into it and run the converter
 `python3 json2txt.py extracted_files/AA output_file.txt`
