@@ -15,10 +15,10 @@ The requirements.txt file should list all Python libraries that your notebooks d
 
 For example, NAME_OF_FANDOM will be `harrypotter` for `https://harrypotter.fandom.com`
 
-To subsequently extract the WikiDump, one can use the fork: https://github.com/ujiuji1259/wikiextractor/tree/fix_colon
+To subsequently extract the WikiDump, one can use the fork: https://github.com/attardi/wikiextractor
 
 # Further Instructions
-1. Clone the extractor locally (https://github.com/ujiuji1259/wikiextractor/tree/fix_colon)
+1. Clone the extractor locally (https://github.com/attardi/wikiextractor)
 2. Open the terminal and cd  your way to the repo dir
 3. Run 
 `python3 setup.py install`
