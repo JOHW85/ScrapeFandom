@@ -11,16 +11,11 @@ The requirements.txt file should list all Python libraries that your notebooks d
 
 `pip install -r requirements.txt`
 
-# Usage
-`python3 ScrapeFandom.py NAME_OF_FANDOM`
-
-For example, NAME_OF_FANDOM will be `harrypotter` for `https://harrypotter.fandom.com`
-
-To subsequently extract the WikiDump, one can use the fork: https://github.com/JOHW85/wikiextractor
-
-# Further Instructions
-1. Clone the extractor locally (https://github.com/JOHW85/wikiextractor)
-2. Open the terminal and cd  your way to the repo dir
-3. Run 
+# Instructions
+1. Clone the extractor locally (https://github.com/JOHW85/wikiextractor) with `git clone https://github.com/JOHW85/wikiextractor`
+2. Open the terminal and cd  your way to the repo dir: `cd wikiextractor`
+4. Run 
 `python3 setup.py install`
-4. Run `run-me.sh FANDOM1 FANDOM2` in the terminal
+5. Finaly, run `run-me.sh FANDOM1 FANDOM2` in the terminal to get FANDOM1.jsonl and FANDOM2.jsonl in the directory.
+Example
+`run-me.sh harrypotter finalfantasy`
