@@ -6,6 +6,7 @@ This script scrapes Fandom.com for an updated Wiki dump. It scrapes the Special:
 Works only for English fandom sites. Some slight modifications are needed for other languages.
 
 # Notes
+Will require the Chrome browser to be installed on the machine. The most up-to-date Chrome Driver will be handled by `webdriver-manager`.
 The requirements.txt file should list all Python libraries that your notebooks depend on, and they will be installed using:
 
 `pip install -r requirements.txt`
