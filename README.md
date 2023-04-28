@@ -16,6 +16,7 @@ The requirements.txt file should list all Python libraries that your notebooks d
 2. Open the terminal and cd  your way to the repo dir: `cd wikiextractor`
 4. Run 
 `python3 setup.py install`
-5. Finaly, run `run-me.sh FANDOM1 FANDOM2` in the terminal to get FANDOM1.jsonl and FANDOM2.jsonl in the directory.
+5. Finally, run `run-me.sh FANDOM1 FANDOM2` in the terminal to get FANDOM1.jsonl and FANDOM2.jsonl in the directory.
+
 Example
 `run-me.sh harrypotter finalfantasy`
