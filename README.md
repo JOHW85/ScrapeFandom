@@ -15,14 +15,11 @@ The requirements.txt file should list all Python libraries that your notebooks d
 
 For example, NAME_OF_FANDOM will be `harrypotter` for `https://harrypotter.fandom.com`
 
-To subsequently extract the WikiDump, one can use the fork: https://github.com/attardi/wikiextractor
+To subsequently extract the WikiDump, one can use the fork: https://github.com/JOHW85/wikiextractor
 
 # Further Instructions
-1. Clone the extractor locally (https://github.com/attardi/wikiextractor)
+1. Clone the extractor locally (https://github.com/JOHW85/wikiextractor)
 2. Open the terminal and cd  your way to the repo dir
 3. Run 
 `python3 setup.py install`
-4. After it finishes, you'll be able to use the extractor. Run 
-   `wikiextractor fandom_name.xml --no-templates --json --o extracted_files`
-6. extracted_files folder will be created. cd into it and run the converter
-`python3 json2txt.py extracted_files/AA output_file.txt`
+4. Run `run-me.sh FANDOM1 FANDOM2` in the terminal
