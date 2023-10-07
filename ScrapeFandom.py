@@ -36,7 +36,7 @@ args = parser.parse_args()
 fandom_site = args.input_fandom
 #Get All Pages
 nextpage_url = "/wiki/Special:AllPages"
-AllPage = "https://"+fandom_site+".fandom.com"+nextpage_url
+AllPage = "https://"+ fandom_site + nextpage_url
 counter = 0
 while nextpage_url != "":
     listofpages = ""
@@ -59,7 +59,7 @@ while nextpage_url != "":
                 listofpages += i.text.replace("(redirect","") + "\n"   
             # Exports XML file of all the pages scraped
             payload = {'catname':'','pages':listofpages,'curonly':'1','wpDownload':1,'wpEditToken':'+\\','title':'Special:Export'}    
-            response = requests.post("https://"+fandom_site+".fandom.com/wiki/Special:Export", data=payload)
+            response = requests.post("https://"+fandom_site+"/wiki/Special:Export", data=payload)
             data = response.content
             # Create directory 'fandom_site' if it doesn't exist
             with safe_open_w(f"{fandom_site}_raw/{counter}.xml") as f:
@@ -73,7 +73,7 @@ while nextpage_url != "":
             if len(nav) > 0:
                 if "Next page" in nav[-1].text:
                     nextpage_url = nav[-1]["href"]
-                    AllPage = "https://"+fandom_site+".fandom.com"+nextpage_url
+                    AllPage = "https://"+fandom_site+nextpage_url
                 else:
                     nextpage_url = ""
                     break
