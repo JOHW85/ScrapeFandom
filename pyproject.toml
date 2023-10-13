@@ -3,7 +3,7 @@ name = "scrapefandom"
 version = "0.1.0"
 description = "A package to scrape fandom wikis and produce XML files of their content. This was made by [JOHW85](https://github.com/JOHW85), with [Sam](https://github.com/SamHollings) generalising it so it could be used on other mediawiki wikis."
 authors = [
-    {website="https://github.com/JOHW85"}
+    {name="https://github.com/JOHW85"}
 ]
 dynamic = ["dependencies"]
 
