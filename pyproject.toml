@@ -1,0 +1,18 @@
+[project]
+name = "scrapefandom"
+version = "0.1.0"
+description = "A package to scrape fandom wikis and produce XML files of their content. This was made by [JOHW85](https://github.com/JOHW85), with [Sam](https://github.com/SamHollings) generalising it so it could be used on other mediawiki wikis."
+authors = [
+    {name="https://github.com/JOHW85"}
+]
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[project.scripts]
+cli = "ScrapeFandom.scrapefandom:main"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"

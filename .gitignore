@@ -1,0 +1,80 @@
+# outputs
+*_raw/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+dist/
+eggs/
+*.egg-info/
+bin/
+include/
+lib/
+local/
+man/
+share/
+pip-wheel-metadata/
+htmlcov/
+.coverage
+.tox/
+.pytest_cache/
+pytestdebug.log
+.venv/
+
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+.idea_caches/
+*.pydevproject
+*.pydevworkspace
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Django
+*.log
+*.pot
+*.pyc
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media
+
+# Flask
+instance/
+.webassets-cache
+
+# Sphinx documentation
+docs/_build/
+
+# Pytest
+pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyright
+.pyrightignore
+.pyrightconfig.json
+.pyrightcache
+
+# pycodestyle
+.pylintrc

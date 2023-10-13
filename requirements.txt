@@ -3,3 +3,5 @@ requests>=2.24.0
 argparse>=1.4.0
 webdriver-manager>=3.8.5
 selenium>=4.8.2
+tqdm
+lxml
