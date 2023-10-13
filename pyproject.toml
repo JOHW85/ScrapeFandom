@@ -11,7 +11,7 @@ dynamic = ["dependencies"]
 dependencies = {file = ["requirements.txt"]}
 
 [project.scripts]
-cli = ScrapeFandom.scrapefandom:main
+cli = "ScrapeFandom.scrapefandom:main"
 
 [build-system]
 requires = ["setuptools"]
