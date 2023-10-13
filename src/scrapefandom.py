@@ -1,6 +1,5 @@
 import requests
 from bs4 import BeautifulSoup
-import argparse
 from tqdm import tqdm
 import errno, os
 from selenium import webdriver
